@@ -1,0 +1,67 @@
+.jumbotron .container {
+  position:relative;
+  top:10px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  background-color: rgba(245, 245, 245, 0.2);
+  align-items: center;
+}
+
+text-center {
+    text-align: center!important;
+    justify-content:center;
+}
+
+body {
+ background: url('/static/Profile_Pic/Scottie.png') ;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
+ background-color: #deeaee;
+ background-blend-mode: overlay;
+}
+
+.open-sans-font{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.h1, h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #d9534f;
+    justify-content:center;
+}
+
+a {
+  color: #405d27;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+.container-fluid {
+padding-top: 50px;
+}
+
+.page-link {
+
+padding: 0rem;
+
+}
+
+.jumbotron {
+
+  background-color: rgba(245, 245, 245, 0.1);
+}

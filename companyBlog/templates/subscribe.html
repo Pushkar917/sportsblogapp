@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<head>
+    <title>Newsletter</title>
+    <link rel="stylesheet" type="text/css" href="/static/newsletter.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+    <div class="card" style="width: 44rem;">
+        <div class="card-body">
+            <div class="content">
+                <h3> PAY TO SUBSCRIBE</h3>
+                <div class="input-group">
+                    <form action="{{url_for('core.payment')}}" method="POST">
+                        <script
+                            src="https://checkout.stripe.com/checkout.js"
+                            class="stripe-button"
+                            data-key={{public_key}}
+                            date-amount="99"
+                            data-name="Blogs Weekly"
+                            data-description="Subscription"
+                            data-locale="auto"
+                            data-zip-code="true"
+                        >
+                        </script>
+                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}

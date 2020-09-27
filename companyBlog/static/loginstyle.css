@@ -1,0 +1,66 @@
+label {
+    display: inline-block;
+    font-size: large;
+    font-family: "Source Sans Pro",sans-serif;
+    width: 90px;
+}
+
+body {
+ background: url('/static/Profile_Pic/Scottie.png') ;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
+ background-color: #deeaee;
+ background-blend-mode: overlay;
+}
+
+.form-group{
+    background: #ff;
+    padding : 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 50px;
+    height: 500px;
+    font-weight: 700;
+
+}
+
+.block{
+
+padding-top: 40px;
+margin-left: 10px;
+}
+
+input{
+
+height: 40px;
+}
+
+small {
+    font-size: smaller;
+    margin-left: 15px;
+    color: black;
+
+}
+
+input[type="submit" i] {
+
+color: white;
+background-color: black;
+margin-left: 140px;
+}
+
+.h3, h3 {
+
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+

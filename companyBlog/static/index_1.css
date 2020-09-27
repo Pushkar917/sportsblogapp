@@ -1,0 +1,49 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: rgba(245, 245, 245, 0.1);
+}
+
+.card-body {
+
+padding: 2rem;
+padding-right: 10rem;
+padding-left: 15rem;
+}
+
+.jumbotron {
+  height:200px;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-color: rgba(245, 245, 245, 0.1);
+
+}
+
+
+body {
+ background: url('/static/Profile_Pic/Scottie.png') ;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
+ background-color: #deeaee;
+ background-blend-mode: overlay;
+}
+
+.open-sans-font{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.h1, h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #d9534f;
+}
+
+a {
+  color: #405d27;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="801d7394-ca2c-4f4e-8ebc-9c77de5618f4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c2RWfcEUKFVAmQPEwhT9oii2rH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/companyBlog/static" />
+      <recent name="$PROJECT_DIR$/companyBlog/static/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/companyBlog/templates/error_pages" />
+      <recent name="$PROJECT_DIR$/companyBlog/static/Profile_Pic" />
+      <recent name="$PROJECT_DIR$/companyBlog/static/css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python">
+      <module name="BlogPostDev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/companyBlog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/companyBlog/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python">
+      <module name="BlogPostDev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BlogPostDev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/companyBlog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/companyBlog/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="picture_handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BlogPostDev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/companyBlog/users" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/companyBlog/users/picture_handler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.picture_handler" />
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="801d7394-ca2c-4f4e-8ebc-9c77de5618f4" name="Default Changelist" comment="" />
+      <created>1589724734787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589724734787</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="689" y="355" width="603" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593172841396">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="689" y="355" width="603" height="410" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1593172841396" />
+    <state x="598" y="289" width="786" height="535" key="#xdebugger.XInspectDialog" timestamp="1593169273033">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="598" y="289" width="786" height="535" key="#xdebugger.XInspectDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1593169273033" />
+    <state x="942" y="569" width="678" height="511" key="#xdebugger.evaluate" timestamp="1594203517489">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="942" y="569" width="678" height="511" key="#xdebugger.evaluate/72.27.1848.1053@72.27.1848.1053" timestamp="1594203517489" />
+    <state width="968" height="506" key="DebuggerActiveHint" timestamp="1593883343953">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="968" height="506" key="DebuggerActiveHint/72.27.1848.1053@72.27.1848.1053" timestamp="1593883343953" />
+    <state x="769" y="320" width="424" height="491" key="FileChooserDialogImpl" timestamp="1594289211464">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="769" y="320" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1594289211464" />
+    <state width="912" height="424" key="GridCell.Tab.0.bottom" timestamp="1594457909397">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="912" height="424" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1594457909397" />
+    <state width="912" height="424" key="GridCell.Tab.0.center" timestamp="1594457909397">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="912" height="424" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1594457909397" />
+    <state width="912" height="424" key="GridCell.Tab.0.left" timestamp="1594457909397">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="912" height="424" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1594457909397" />
+    <state width="912" height="424" key="GridCell.Tab.0.right" timestamp="1594457909397">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="912" height="424" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1594457909397" />
+    <state width="912" height="502" key="GridCell.Tab.1.bottom" timestamp="1594328016083">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="912" height="502" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1594328016083" />
+    <state width="912" height="502" key="GridCell.Tab.1.center" timestamp="1594328016083">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="912" height="502" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1594328016083" />
+    <state width="912" height="502" key="GridCell.Tab.1.left" timestamp="1594328016082">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="912" height="502" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1594328016082" />
+    <state width="912" height="502" key="GridCell.Tab.1.right" timestamp="1594328016083">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="912" height="502" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1594328016083" />
+    <state x="898" y="343" width="1022" height="737" key="SettingsEditor" timestamp="1594305714971">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="898" y="343" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1594305714971" />
+    <state width="924" height="526" key="XDebugger.FullValuePopup" timestamp="1594327824912">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="924" height="526" key="XDebugger.FullValuePopup/72.27.1848.1053@72.27.1848.1053" timestamp="1594327824912" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1594289838747">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1594289838747" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/users/picture_handler.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/form.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/blogposts/views.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/blogposts/views.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/users/picture_handler.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/users/forms.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/users/forms.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/users/forms.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/core/views.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/blogposts/views.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/companyBlog/blogposts/views.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

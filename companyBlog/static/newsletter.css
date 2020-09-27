@@ -1,0 +1,53 @@
+.jumbotron {
+  height:200px;
+  background-repeat: no-repeat;
+  background-size: 200%;
+
+  background-color: rgba(245, 245, 245, 0.1);
+
+}
+
+body {
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+  background-blend-mode: color-dodge;
+}
+
+.newsletter {
+  padding-top:150px;
+
+}
+
+
+
+.content{
+font-size: x-large;
+padding-left: 13rem;
+padding-top: 8rem;
+font-family: 'Open Sans', sans-serif;
+
+}
+.h3, h3 {
+font-weight: 600;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  background: url('/static/Profile_Pic/Scottie.png') ;
+  transition: 0.3;
+  background-color: #deee;
+  background-blend-mode: color-dodge;
+  min-height: 500px;
+  margin-left: 520px;
+  margin-bottom: 520px;
+  margin-top: 150px;
+}
+
+.input-group {
+
+padding-left: 45px;
+}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-link">
+            <a class="nav-link" href="{{url_for('core.index')}}"><button type="button" class="btn btn-warning">Home</button></a>
+        </li>
+        <li class="nav-link">
+            <a class="nav-link" href="{{url_for('core.subscribe')}}"><button type="button" class="btn btn-warning">Subscribe</button></a>
+        </li>
+        {% if current_user.is_authenticated %}
+         <li class="nav-link">
+            <a class="nav-link" href="{{ url_for('blogposts.createPost') }}"><button type="button" class="btn btn-warning">Create Blog</button></a>
+         </li>
+        <li class="nav-link">
+            <a class="nav-link" href="{{url_for('users.logout')}}"><button type="button" class="btn btn-warning">Logout</button></a>
+         </li>
+        <li class="nav-link">
+            <a class="nav-link" href="{{url_for('users.account')}}"><button type="button" class="btn btn-warning">Account</button></a>
+         </li>
+        {% else %}
+        <li class="nav-link">
+            <a class="nav-link" href="{{ url_for('users.login') }}"><button type="button" class="btn btn-warning">Login</button></a>
+         </li>
+        <li class="nav-link">
+            <a class="nav-link" href="{{ url_for('users.register') }}"><button type="button" class="btn btn-warning">Register</button></a>
+         </li>
+        {% endif %}
+
+    </ul>
+    <div class="container-fluid">
+        {% block content %}
+
+        {% endblock %}
+    </div>
+
+</body>
+</html>

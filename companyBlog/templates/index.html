@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <head>
+    <link rel="stylesheet" type="text/css" href="/static/index_1.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    </head>
+    <div class="open-sans-font">
+        <div class="jumbotron">
+         <h1 class="text-center">SPORTS BLOG</h1>
+     </div>
+    <div class="banner">
+         {% for post in posts.items %}
+            <div class="card mt-3" style="width: 112rem;">
+                <div class="card-body">
+                    <h3><a class="card-title" href=" {{ url_for('blogposts.blogpost', blog_post_id=post.post_id) }}">{{ post.title[:40]}} ..</a></h3>
+                    <a href="{{ url_for('users.user_posts', username=post.author.username) }}">By: {{ post.author.username }}</a>
+                    <p >Published on: {{ post.timeofPost.strftime('%Y-%m-%d') }}</p>
+                    <p class="card-text">{{ post.post_text[:200]}} ... </p>
+                    <a href="{{ url_for('blogposts.blogpost', blog_post_id=post.post_id) }}"class="btn btn-warning">Read</a>
+
+            </div>
+            </div>
+         {% endfor %}
+     </div>
+    </div>
+<div class = "jumbotron ">
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        {% if next_url %}
+            <a href="{{ next_url }}"><button type="button" class="btn btn-warning">Next Page </button></a>
+        {% endif %}
+
+        {% if prev_url %}
+            <a href="{{ prev_url }}"><button type="button" class="btn btn-warning">Prev Page</button></a>
+        {% endif %}
+    </ul>
+</nav>
+</div>
+
+
+{% endblock %}

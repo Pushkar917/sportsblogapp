@@ -1,0 +1,47 @@
+body {
+ background: url('/static/Profile_Pic/Scottie.png') ;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
+ background-color: #deeaee;
+ background-blend-mode: overlay;
+}
+
+
+input[type="submit" i] {
+    color: white;
+    background-color: black;
+    margin-left: 490px;
+    width: 80px;
+}
+
+
+input {
+    margin-left: 220px;
+    height: 40px;
+    width: 600px;
+}
+
+
+textarea {
+    height: 550px;
+    width: 700px;
+    overflow: auto;
+    resize: vertical;
+    margin-left: 220px;
+}
+
+
+label {
+    margin-left: 109px;
+    font-weight: bolder;
+    display: inline-block;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+    width: 90px;
+}
+
+.container-fluid {
+    padding-top: 30px;
+    }

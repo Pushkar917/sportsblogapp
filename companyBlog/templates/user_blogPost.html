@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/user_post.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<div class="open-sans-font">
+        <div class="container">
+            <h1 class="text-center">{{user.username}}'s Page </h1>
+        </div>
+
+<div class="jumbotron vertical-center">
+    <div class="container">
+
+    {% for post in blog_posts.items %}
+
+        <h2><a href="{{ url_for('blogposts.blogpost',blog_post_id=post.post_id) }}">{{post.title}}</a> </h2>
+        <p class="text-muted">Published on: {{ post.timeofPost.strftime('%Y-%m-%d') }}</p>
+
+        <br>
+        <p>{{post.text}}</p>
+        <br>
+
+    {% endfor %}
+    </div>
+</div>
+</div>
+<div class = "jumbotron ">
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        {% if next_url %}
+            <a href="{{ next_url }}"><button type="button" class="btn btn-warning">Next Page </button></a>
+        {% endif %}
+
+        {% if prev_url %}
+            <a href="{{ prev_url }}"><button type="button" class="btn btn-warning">Prev Page</button></a>
+        {% endif %}
+    </ul>
+</nav>
+</div>
+{% endblock %}

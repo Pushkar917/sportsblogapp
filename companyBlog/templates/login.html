@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+{% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class=flashes>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+{% endwith %}
+
+<div class="form-group">
+    <center>
+        <h2> Login to your account </h2>
+    </center>
+
+
+
+     <form method="POST">
+         {{ form.hidden_tag() }}
+         <div class="block"><label>{{ form.email.label }}</label><br>{{form.email}}<br>
+         <small id="email-help" class ="form text text-muted"> We never share your email id</small><br><br>
+         <label>{{ form.password.label }}</label><br>{{form.password}}<br><br>
+
+             {{ form.submit() }}
+         </div>
+
+     </form>
+</div>
+
+{% endblock %}
+

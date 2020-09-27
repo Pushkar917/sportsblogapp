@@ -1,0 +1,51 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/account.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+{% extends "base.html" %}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/account.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+{% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class=flashes>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+{% endwith %}
+
+
+{% block content %}
+
+<head>
+     <link rel="stylesheet" type="text/css" href="/static/account.css">
+     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<div class="form-group">
+
+        <div align='center'>
+            <h1 >Welcome {{current_user.username}} !</h1><br>
+                <div class="image-wrapper">
+                    <img align='center' src="{{ url_for('static', filename='Profile_Pic/' + current_user.profile_image)}}">
+                 </div>
+                 <br>
+             <h2>UPDATE HERE. REFILL THE FORM </h2><br>
+             <form method="post">
+                 {{form.hidden_tag()}}
+                 {{form.email.label}}{{form.email}}<br> <br>
+                 {{form.username.label}}{{form.username}}<br><br>
+                 {{form.password.label}}{{form.password}}<br><br>
+                 {{form.password_confirm.label}}{{form.password_confirm}}<br><br>
+                 {{form.pic.label}}{{form.pic}}<br><br>
+                 {{form.submit()}}
+             </form>
+
+     </div>
+</div>
+{% endblock %}
