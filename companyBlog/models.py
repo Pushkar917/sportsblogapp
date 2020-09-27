@@ -28,7 +28,7 @@ class Users(db.Model, UserMixin):
         self.password_hash = generate_password_hash(password)
 
     def __repr__(self):
-        return f"Author: {self.username}"
+        return "{} Author".format(self.username)
 
     def checkPassword(self, password):
         boolPasswordCheck = check_password_hash(self.password_hash, password)
@@ -53,4 +53,4 @@ class BlogPosts(db.Model):
         self.post_text = post_text
 
     def __repr__(self):
-        return f' {self.title} : by  {self.author_id} : wriiten at {self.timeofPost}'
+        return "{} :by {} : written at {}".format(self.title, self.author_id, self.timeofPost)
