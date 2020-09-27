@@ -37,10 +37,10 @@ class UpdateUserForm(FlaskForm):
 
     def check_email(self, field):
         if Users.query.filter_by(email=field.data).first():
-            raise ValidationError(f"This email already exist : {field.data}")
+            raise ValidationError("{}This email already exist :".format(field.data))
 
     def check_username(self, field):
         if Users.query.filter_by(email=field.data).first():
-            raise ValidationError(f"This Username already : {field.data}")
+            raise ValidationError("{}This Username already : ".format(field.data))
 
 
